@@ -1,0 +1,21 @@
+<html>
+<title>Start</title>
+<script language="JavaScript">
+function startDesktop(desktopURL) {
+  var desktop = window.open(desktopURL, "_blank",
+  "toolbar=no,location=no,status=no,menubar=no,scrollbars=no,width=1024,height=768,resizable=no");
+}
+function startDesktop1(desktopURL) {
+  var desktop = window.open(desktopURL, "_blank",
+  "toolbar=no,location=no,status=no,menubar=no,scrollbars=no,width=400,height=300,resizable=no");
+}
+</script>
+
+<body bgcolor=#ffffff>
+
+<a href="Javascript:startDesktop('1.html')">Press</a><br>
+<a href="Javascript:startDesktop('dumb.html')">Dumb</a><br>
+<a href="Javascript:startDesktop1('/gai-bin/pickname.pl')">Pick name</a><a href="/gai-bin/pickname.pl">Pick name 1</a><br>
+<a href="/gai-bin/manager.pl">Manager</a><br>
+</body>
+</html>
